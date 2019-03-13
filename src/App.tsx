@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
+import Form from "./components/Form";
 
 const Container = styled.div`
   max-width: 90%;
@@ -15,6 +16,7 @@ const App = () => (
           <h2>pixiv query builder</h2>
           <p>pixiv の画像検索を良い感じにすることが出来ます。</p>
 
+          <Form />
         </div>
       </div>
     </Container>
