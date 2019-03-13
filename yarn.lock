@@ -722,13 +722,6 @@
   dependencies:
     regenerator-runtime "^0.12.0"
 
-"@babel/runtime@^7.1.2":
-  version "7.3.4"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.3.4.tgz#73d12ba819e365fcf7fd152aed56d6df97d21c83"
-  integrity sha512-IvfvnMdSaLBateu0jfsYIpZTxAc2cKEXEMiezGGN75QcBcecDUKd3PgLAncT0oOgxKy8dd8hrJKj9MfzgfZd6g==
-  dependencies:
-    regenerator-runtime "^0.12.0"
-
 "@babel/template@^7.1.0", "@babel/template@^7.1.2", "@babel/template@^7.2.2":
   version "7.2.2"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.2.2.tgz#005b3fdf0ed96e88041330379e0da9a708eb2907"
@@ -1145,27 +1138,6 @@
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/@xtuc/long/-/long-4.2.1.tgz#5c85d662f76fa1d34575766c5dcd6615abcd30d8"
   integrity sha512-FZdkNBDqBRHKQ2MEbSC17xnPFOhZxeJ2YGSfr2BKf3sujG49Qe3bB+rGCwQfIaA7WHnGeGkSijX4FuBCdrzW/g==
-
-"@zendeskgarden/react-chrome@^4.6.2":
-  version "4.6.2"
-  resolved "https://registry.yarnpkg.com/@zendeskgarden/react-chrome/-/react-chrome-4.6.2.tgz#3d43136a91f014266ae93e485625502eecf7dd43"
-  integrity sha512-zcksLVEWZF/XNdnlOUxcPO/LYtO3yK0/5Q53A4ECvXQXR1/AvgBiq+P1LtkKY4XvymXmGVBVkNHQruDNQ0+95g==
-  dependencies:
-    "@zendeskgarden/react-selection" "^4.6.2"
-    classnames "^2.2.5"
-
-"@zendeskgarden/react-selection@^4.6.2":
-  version "4.6.2"
-  resolved "https://registry.yarnpkg.com/@zendeskgarden/react-selection/-/react-selection-4.6.2.tgz#95c061ad147aee428a02eb9e3eea939a6d2cd1bd"
-  integrity sha512-4Zf1tzK4+SyNg5bqSCe+wgEWjCLySP3xWwzW9Pi6Fib2mkGi2UVXsdSqdiMYMrtBba4JMvyLJCAKqMCk3ilWIw==
-  dependencies:
-    classnames "^2.2.5"
-    dom-helpers "^3.3.1"
-
-"@zendeskgarden/react-theming@^3.2.1":
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/@zendeskgarden/react-theming/-/react-theming-3.2.1.tgz#225c1cc67cea9b7cab1c226ac25bc3f3c77005d4"
-  integrity sha512-uaKfPg+MAoEJ5OSqmKW7Jd300zHCnbLx4tOtHcd83dpdVbIV+VllZ5sRxaCssjlm343Wez1taA4+VDIEBrweQw==
 
 abab@^2.0.0:
   version "2.0.0"
@@ -2274,11 +2246,6 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-classnames@^2.2.5:
-  version "2.2.6"
-  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
-  integrity sha512-JR/iSQOSt+LQIWwrwEzJ9uk0xfN3mTVYMwt1Ir5mUcSN6pU+V4zQFFaJsclJbPuAUQH+yfWef6tm7l1quW3C8Q==
-
 clean-css@4.2.x:
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/clean-css/-/clean-css-4.2.1.tgz#2d411ef76b8569b6d0c84068dabe85b0aa5e5c17"
@@ -3163,13 +3130,6 @@ dom-converter@~0.2:
   integrity sha512-gd3ypIPfOMr9h5jIKq8E3sHOTCjeirnl0WK5ZdS1AW0Odt0b1PaWaHdJ4Qk4klv+YB9aJBS7mESXjFoDQPu6DA==
   dependencies:
     utila "~0.4"
-
-dom-helpers@^3.3.1:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/dom-helpers/-/dom-helpers-3.4.0.tgz#e9b369700f959f62ecde5a6babde4bccd9169af8"
-  integrity sha512-LnuPJ+dwqKDIyotW1VzmOZ5TONUN7CwkCR5hrgawTUbkBGYdeoNLZo6nNfGkCrjtE1nXXaj7iMMpDa8/d9WoIA==
-  dependencies:
-    "@babel/runtime" "^7.1.2"
 
 dom-serializer@0:
   version "0.1.0"
