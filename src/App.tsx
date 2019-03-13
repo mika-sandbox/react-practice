@@ -9,8 +9,8 @@ const Container = styled.div`
 `;
 
 const App = () => (
-  <React.StrictMode>
-    <Container className="container">
+  <Container className="container">
+    <React.StrictMode>
       <div className="row justify-content-center">
         <div className="col-md-10 col-lg-8 col-xl-6">
           <h2>pixiv query builder</h2>
@@ -19,8 +19,8 @@ const App = () => (
           <Form />
         </div>
       </div>
-    </Container>
-  </React.StrictMode>
+    </React.StrictMode>
+  </Container>
 );
 
 export default App;
