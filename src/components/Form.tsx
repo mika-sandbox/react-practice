@@ -17,6 +17,7 @@ const Form = () => {
   return (
     <form onSubmit={onSubmit}>
       <Keywords keyword={state.keyword} onChanged={onKeywordChanged} />
+      <Keywords keyword={state.keyword} onChange={onKeywordChanged} />
 
       <button className="btn btn-primary" type="submit">
         検索する

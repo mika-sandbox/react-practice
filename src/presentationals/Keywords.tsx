@@ -3,13 +3,13 @@ import { IKeywordQuery } from "../models/query";
 
 interface IState {
   keyword: IKeywordQuery;
-  onChanged?: (event: IKeywordQuery) => void;
+  onChange?: (event: IKeywordQuery) => void;
 }
 
-const Keywords = ({ keyword, onChanged }: IState) => {
+const Keywords = ({ keyword, onChange }: IState) => {
   const onValueChanged = (e: React.ChangeEvent<HTMLInputElement>) => {
-    if (onChanged) {
-      onChanged({ ...keyword, ...{ [e.target.name]: e.target.value } });
+    if (onChange) {
+      onChange({ ...keyword, ...{ [e.target.name]: e.target.value } });
     }
   };
 
